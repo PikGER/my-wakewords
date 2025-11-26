@@ -1,0 +1,10 @@
+{
+  "name": "pepa_ann",
+  "version": 1,
+  "type": "micro_wake_word.model",
+  "wake_word": "pepa ann",
+  "tflite": "pepa_ann.tflite",
+  "sample_rate": 16000,
+  "samples_per_window": 512,
+  "average_window_duration_ms": 1500
+}
