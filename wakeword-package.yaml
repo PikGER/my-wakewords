@@ -6,5 +6,5 @@ micro_wake_word:
     gain_factor: 4
   stop_after_detection: False
   models:
-    - id: pepa
+    - id: pepa_ann
       model: https://raw.githubusercontent.com/PikGER/my-wakewords/main/pepa_ann.json
