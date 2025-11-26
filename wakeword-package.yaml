@@ -1,0 +1,10 @@
+micro_wake_word:
+  id: mww
+  microphone:
+    microphone: i2s_mics
+    channels: 1
+    gain_factor: 4
+  stop_after_detection: False
+  models:
+    - id: pepa
+      model: https://raw.githubusercontent.com/PikGER/my-wakewords/main/pepa_ann.json
